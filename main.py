@@ -6,7 +6,7 @@ from docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 
 excelpath = "./GoalsExcel"
-
+print(10086)
 # 过滤出Excel文件
 excels = [file for file in os.listdir(excelpath) if file.endswith(('.xlsx', '.xls'))]
 # 获取第一个excel文件的路径
